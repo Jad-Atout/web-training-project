@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: #1B1B1B;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    font-size: 40px;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding:20px;
+}
+.nav_links a{
+    text-decoration: none;
+    color: white;
+
+}
+.someObj{
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url("project background.jpg");
+}
+.body_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project background.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+.body_content{
+display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+.text{
+    color: white;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.buttons a{
+    border: white solid 2px;
+    padding: 3px 20px;
+    border-radius: 5px;
+    text-decoration:none;
+    font-size: 20px;
+}
+.buttons :nth-child(1){
+
+    color: white;
+}
+.buttons :nth-child(2){
+    background-color: white;
+    color: black;
+}
